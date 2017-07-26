@@ -17,6 +17,8 @@ echo "---> Preparing source..."
 SOURCE=$SOURCE${SOURCE_ROOT:+/}$SOURCE_ROOT
 mkdir -p $SOURCE
 
+echo "---> SOURCE set to ${SOURCE}"
+
 cp -Rf /tmp/src/. $SOURCE
 
 cd $SOURCE
